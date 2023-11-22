@@ -80,19 +80,20 @@ function rotateSecund() {
 let countTime = 0; 
  
 setInterval(() => { 
-    setTimeout(() => { 
-        countTime = countTime + 1; 
-        if (countTime <= 1) { 
-            rotateSecund(); 
-        }  
-        if (countTime == 60) { 
-            rotateSecund(); 
-            rotateMinute(); 
-        } 
-        countTime = 0; 
- 
-    }, 100) 
+    
+    countTime = countTime + 1; 
+    
+        rotateSecund(); 
+    
+    if (countTime % 60 == 0) { 
+        
+        rotateMinute(); 
+    } 
+    
+
+
 }, 1000)
+
 
 // function updateClock() {
 //     const now = new Date();
