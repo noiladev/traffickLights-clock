@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 1200px;
+}
+
+.hero {
+    display: flex;
+    margin-top: 50px;
+}
+.wrapper {
+    border: 4px solid black;
+    margin: 30px auto;
+    width: 300px;
+    padding: 3px  47px;
+     border-radius: 19px;
+}
+
+.green {
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+    border-radius: 50%;
+}
+
+.yellow {
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+    border-radius: 50%;
+}
+
+.red {
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+    border-radius: 50%;
+}
+
+.for__peoples {
+    border: 4px solid black;
+    margin: 30px auto;
+    padding: 15px  20px;
+    border-radius: 19px;
+    width: 200px;
+    height: 380px;
+}
+
+.red__FP {
+    width: 150px;
+    height: 150px;
+    border: 1px solid black;
+    border-radius: 50%;
+}
+
+.green__FP {
+    width: 150px;
+    height: 150px;
+    margin-top: 30px;
+    border: 1px solid black;
+    border-radius: 50%;
+}
+
+.time {
+    width: 300px;
+    height: 300px;
+    border: 6px solid black;
+    border-radius: 50%;
+    margin-top: 30px;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+.minut {
+    width: 150px;
+    border: 3px solid black;
+    height: 2px;
+    transform-origin: right;
+    transition: all ease 3s;
+    /* transform:rotate(100deg) */
+}
+
+.time:hover .minut  {
+    /* transform: rotate(480deg); */
+}
+/* 
+.time:hover  .secund{
+    transform: rotate(6deg);
+} */
+
+.secund {
+    width: 150px;
+    height: 2px;
+    border: 1px solid black;
+    transform-origin:  left;
+    transition: all ease 3s;
+    /* transform:rotate(360deg) */
+}
